@@ -83,7 +83,7 @@ public class Practice {
 
         for(int i = 0; i < L;i++ ){
             String x = words[i];
-            
+            x= x.toLowerCase();
             char c = x.charAt(0); 
             char a = 'a'; 
             if(c==a){
